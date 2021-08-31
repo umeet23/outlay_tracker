@@ -19,7 +19,7 @@ const Main = () => {
       <CardHeader title="Outlay Tracker" subheader="Powered by Speechly" />
       <CardContent>
         <Typography variant="h5" align="center">
-          Total Balance $200
+          Total Balance $ {200}
         </Typography>
         <Typography
           variant="subtitle1"
@@ -30,7 +30,7 @@ const Main = () => {
         <Divider />
         <Form />
       </CardContent>
-      <CardContent className={classes.CardContent}>
+      <CardContent className={classes.cartContent}>
         <Grid container spacing={2}>
           <Grid item xs={12}>
             <List />
