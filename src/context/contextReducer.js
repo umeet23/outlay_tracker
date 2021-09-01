@@ -11,6 +11,7 @@ const contextReducer = (state, action) => {
       transactions = state;
       break;
   }
+  localStorage.setItem('transactions', JSON.stringify(transactions));
   return transactions;
 };
 
